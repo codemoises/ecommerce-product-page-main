@@ -67,7 +67,15 @@
 
             <p>$250.00</p>
             <div class="i-b">
-              <input type="number" id="quantity" name="quantity" min="1" max="5" placeholder="0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <button type="button" id="menos" onclick="less()"><i class="fa fa-minus-circle"aria-hidden="true">-</i></button> &nbsp; 
+                    <input type="text" name="numero" id="num"> &nbsp;
+                    <button type="button" id="mais" onclick="more()">+<i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
               <input type="button" value="Add to cart">
             </div>
         </div>

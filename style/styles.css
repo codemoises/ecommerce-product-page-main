@@ -141,3 +141,44 @@ h6 {
     width: 426px;
     border-radius: 14px;
 }
+
+.container {
+    display: flex;
+    width: 150px;
+    height: 44px;
+    border-radius: 4px;
+    background: #F7F8FD;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .row {
+    width: 125px;
+}
+
+.container .col-md-12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.container .col-md-12 input {
+    width: 11px;
+    border: 0;
+    text-align: center;
+    
+}
+
+.container .col-md-12 button {
+    border: 0;
+    background: none;
+    color: #F48C38;
+}
+
+.container .col-md-12 button i {
+    width: 4;
+    height: ;
+}
