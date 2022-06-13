@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -35,11 +35,11 @@ h3 {
 }
 
 h4 {
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: 4rem;
+    font-size: 1.2rem;
 }
 
 h6 {
@@ -169,6 +169,9 @@ h6 {
     width: 11px;
     border: 0;
     text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -178,7 +181,24 @@ h6 {
     color: #F48C38;
 }
 
-.container .col-md-12 button i {
-    width: 4;
-    height: ;
+.container .col-md-12 .fa-minus-circle {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.container .col-md-12 .fa-plus-circle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.grid-r h1 {
+    display: block;
+    width: 479px;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+
+.grid-r .prices {
+    display: flex;
+    align-items: center;
 }
