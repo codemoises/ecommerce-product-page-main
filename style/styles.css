@@ -241,14 +241,18 @@ del {
     color: #65666A;
 }
 
+.w-1 {
+    width: 426px;
+}
+
 .i-b {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 318px;
+    width: 428px;
 }
 
-.i-b input {
+.i-b .input {
     width: 168px;
     height: 40px;
     border: 0;
@@ -257,8 +261,44 @@ del {
 
 .i-b .btn-addtc {
     background: #DD8747;
-    color: #FFFAED;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 274px;
+    height: 44px;
+}
+
+.i-b .btn-addtc img {
+    width: 15px;
+    height: 15px;
+}
+
+.addtc {
+    padding-left: 15px;
+    background: none;
+    color: #FFFAED;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-s {
+    padding-top: 26px;
+    width: 426px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-s img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    
+}
+
+.img-s img:hover {
+    border: 2.5px solid #F48C38;
 }
