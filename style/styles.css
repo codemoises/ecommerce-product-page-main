@@ -105,10 +105,21 @@ h6 {
     width: 100px;
 }
 
-.menu-content .icon-profile img {
+.icon-profile {
     width: 40px;
     height: 40px;
+    
 }
+
+.menu-content .icon-profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.menu-content .icon-profile img:hover {
+    border: 2px solid #DD8747;
+}
+
 
 .main-bg {
     background: white;
@@ -159,7 +170,7 @@ h6 {
 
 
 .container .col-md-12 input {
-    width: 11px;
+    width: 18px;
     border: 0;
     text-align: center;
     font-size: 17px;
@@ -265,6 +276,10 @@ del {
     justify-content: center;
     width: 274px;
     height: 44px;
+}
+
+.i-b .btn-addtc:hover {
+    background: #e99352;
 }
 
 .i-b .btn-addtc img {

@@ -29,20 +29,23 @@ function imagens() {
   fourthImage.addEventListener('click', clickfourth); 
   
   function click() {
-   
     mainImage.src = 'images/image-product-1.jpg';
+
   }
 
   function clicktwo() {
     mainImage.src = 'images/image-product-2.jpg';
+    
   }
 
   function clickthee() {
     mainImage.src = 'images/image-product-3.jpg';
+
   }
 
   function clickfourth() {
     mainImage.src = 'images/image-product-4.jpg';
+
   }
 
 }
