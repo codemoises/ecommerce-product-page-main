@@ -1,4 +1,4 @@
-numero = 0;
+var numero = 0;
 
 function less() {
   numero--;
@@ -12,6 +12,7 @@ function more() {
 
 function setValue(value) {
   document.getElementById('num').value = value;
+
 }
 
 setValue(numero);
@@ -49,4 +50,9 @@ function imagens() {
   }
 
 }
-  
+
+function price() {
+  let price = document.getElementById('price');
+  let discount = document.getElementById('discount');
+
+}
