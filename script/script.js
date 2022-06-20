@@ -56,13 +56,8 @@ function addtocart() {
   let discount = (50/100);
   let quantity = document.getElementById('num').value;
 
-
   var lastPrice = (price * discount) * quantity;
-  
- 
 
   console.log(lastPrice);
-
-
 
 }
