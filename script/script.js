@@ -51,8 +51,18 @@ function imagens() {
 
 }
 
-function price() {
-  let price = document.getElementById('price');
-  let discount = document.getElementById('discount');
+function addtocart() {
+  let price = 250;
+  let discount = (50/100);
+  let quantity = document.getElementById('num').value;
+
+
+  var lastPrice = (price * discount) * quantity;
+  
+ 
+
+  console.log(lastPrice);
+
+
 
 }
