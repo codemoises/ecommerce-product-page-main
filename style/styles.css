@@ -164,6 +164,24 @@ h6 {
 
 .dropdown:hover .dropdown-content {display: block;}
 
+.icon-car {
+    position: relative;
+}
+
+.icon-car .notification-car {
+    display: block;
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    background: #FF7D1B;
+    color: #fff;
+    position: absolute;
+    top: -6px;
+    right: -7px;
+    width: 18px;
+    height: 12px;
+    border-radius: 10px;
+}
 
 .main-bg {
     background: white;
