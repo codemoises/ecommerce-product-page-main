@@ -135,6 +135,7 @@ h6 {
     -webkit-box-shadow: 0px 4px 77px -48px rgb(0 0 0);
     -moz-box-shadow: 0px 4px 77px -48px rgba(0,0,0,1);
     box-shadow: 0px 4px 77px -48px rgb(0 0 0);
+    border-radius: 7px;
     z-index: 1;
 }
 
@@ -148,6 +149,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .dropdown-content .content p {
@@ -155,6 +157,39 @@ h6 {
 
 }
 
+.img-c img {
+    max-width: 62px;
+    max-height: 62px;
+    border-radius: 5px;
+}
+
+.c-n {
+    max-width: 400px;
+    margin: 18px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-btn {
+    margin: 0 auto;
+    max-width: 400px;
+    margin-bottom: 27px;
+}
+
+.c-btn input {
+    width: 100%;
+    height: 47px;
+    border: 0;
+    border-radius: 6px;
+    background: #FF7D1B;
+    color: #fff;
+    font-weight: 600;
+}
+
+.c-btn input:hover {
+    background: #FFAC6A;
+}
 
 .dropdown-content .h-c p {
     font-weight: 600;
@@ -243,7 +278,7 @@ h6 {
 .container .col-md-12 button {
     border: 0;
     background: none;
-    color: #F48C38;
+    color: #FF7D1B;
 }
 
 .container .col-md-12 .fa-minus-circle {
@@ -328,7 +363,7 @@ del {
 }
 
 .i-b .btn-addtc {
-    background: #DD8747;
+    background: #FF7D1B;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     border-radius: 7px;
@@ -340,7 +375,7 @@ del {
 }
 
 .i-b .btn-addtc:hover {
-    background: #e99352;
+    background: #FFAC6A;
 }
 
 .i-b .btn-addtc img {
