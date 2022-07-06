@@ -237,8 +237,12 @@ h6 {
     align-items: center;
 }
 
-.grid .grid-l .img-p img {
+.grid .grid-l .img-p {
     width: 426px;
+}
+
+.grid .grid-l .img-p img {
+    max-width: 100%;
     border-radius: 14px;
 }
 
@@ -408,4 +412,21 @@ del {
 
 .img-s img:hover {
     border: 2.5px solid #F48C38;
+}
+
+@media (max-width: 1126px) {
+    .intro {
+        max-width: 511px;
+        margin: 0 auto;
+        padding: 50px 0px;
+    }
+
+    .intro .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .img-s {
+        display: none;
+    }
+
 }
