@@ -270,7 +270,7 @@ h6 {
 
 
 .container .col-md-12 input {
-    max-width: 76px;
+    width: 76px;
     border: 0;
     text-align: center;
     font-size: 17px;
@@ -429,4 +429,63 @@ del {
         display: none;
     }
 
+}
+
+@media (max-width: 888px) {
+    nav {
+        display: none;
+    }
+
+    .menu-content .content-l {
+        width: auto;
+    }
+
+    .grid-r {
+        width: 375px;
+        padding: 0 25px;
+    }
+
+    .w-1 {
+        width: 370px;
+    }
+
+    .grid-r h6 {
+        padding-top: 12px;
+    }
+
+    .menu .menu-content {
+        padding: 24px 20px;
+    }
+
+    .menu-content .content-r {
+        width: 87px;
+    }
+
+    .icon-profile {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .intro {
+        max-width: 375px;
+        padding: 0;
+    }
+
+    .grid .grid-l .img-p {
+        width: 375px;
+    }
+
+    .menu-content .content-r {
+        width: 82px;
+    }
+
+    .grid .grid-l .img-p img {
+        border-radius: 0;
+    }
+
+    .grid-r .prices {
+        width: 242px;
+        flex-wrap: nowrap;
+    }
 }
